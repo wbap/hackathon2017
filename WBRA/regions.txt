@@ -1,0 +1,14 @@
+Isocortex	Isocortex	Isocortex	Isocortex
+FL	FL	Frontal Lobe	Frontal Cortex
+ASC	ASC	Associative Cortex	Associative Cortex
+ODC	ODC	Odometry Cortex	Odometry Cortex
+DVC	DVC	Dorsal Visual Cortex	Visual Where Path
+VVC	VVC	Ventral Visual Cortex	Visual What Path
+UB	UB	The Umataro Box	Perihippocampal Area and Hippocampal Formation
+UVQ	UVQ	Umataro Visual Quod I/O	Umataro Visual What (Quod) I/O
+UVU	UVU	Umataro Visual Ubi I/O	Umataro Visual Where (Ubi) I/O
+UO	UO	Umataro Odometry I/O	Umataro Odometry I/O
+UAllo	UAllo	Umataro Allocentric I/O	Umataro Allocentric I/O
+CA1	CA1	Field CA1	Field CA1
+BG	BG	Basal Ganglia	Basal Ganglia
+MO	MO	Motor Output	Motor Output

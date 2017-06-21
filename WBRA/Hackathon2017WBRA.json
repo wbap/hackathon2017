@@ -1,0 +1,533 @@
+{
+ "Connections": [
+  {
+   "Comment": "A connection from UAllo to ASC.", 
+   "FromModule": "UAllo", 
+   "Name": "UAllo-ASC", 
+   "FromPort": "UB/UAllo/UAllo-ASC-Output", 
+   "ToModule": "ASC", 
+   "ToPort": "Isocortex/ASC/UAllo-ASC-Input"
+  }, 
+  {
+   "Comment": "A connection from UAllo to BG.", 
+   "FromModule": "UAllo", 
+   "Name": "UAllo-BG", 
+   "FromPort": "UB/UAllo/UAllo-BG-Output", 
+   "ToModule": "BG", 
+   "ToPort": "BG/UAllo-BG-Input"
+  }, 
+  {
+   "Comment": "A connection from BG to FL.", 
+   "FromModule": "BG", 
+   "Name": "BG-FL", 
+   "FromPort": "BG/BG-FL-Output", 
+   "ToModule": "FL", 
+   "ToPort": "Isocortex/FL/BG-FL-Input"
+  }, 
+  {
+   "Comment": "A connection from FL to ASC.", 
+   "FromModule": "FL", 
+   "Name": "FL-ASC", 
+   "FromPort": "Isocortex/FL/FL-ASC-Output", 
+   "ToModule": "ASC", 
+   "ToPort": "Isocortex/ASC/FL-ASC-Input"
+  }, 
+  {
+   "Comment": "A connection from FL to DVC.", 
+   "FromModule": "FL", 
+   "Name": "FL-DVC", 
+   "FromPort": "Isocortex/FL/FL-DVC-Output", 
+   "ToModule": "DVC", 
+   "ToPort": "Isocortex/DVC/FL-DVC-Input"
+  }, 
+  {
+   "Comment": "A connection from FL to BG.", 
+   "FromModule": "FL", 
+   "Name": "FL-BG", 
+   "FromPort": "Isocortex/FL/FL-BG-Output", 
+   "ToModule": "BG", 
+   "ToPort": "BG/FL-BG-Input"
+  }, 
+  {
+   "Comment": "A connection from FL to MO.", 
+   "FromModule": "FL", 
+   "Name": "FL-MO", 
+   "FromPort": "Isocortex/FL/FL-MO-Output", 
+   "ToModule": "MO", 
+   "ToPort": "MO/FL-MO-Input"
+  }, 
+  {
+   "Comment": "A connection from CA1 to FL.", 
+   "FromModule": "CA1", 
+   "Name": "CA1-FL", 
+   "FromPort": "CA1/CA1-FL-Output", 
+   "ToModule": "FL", 
+   "ToPort": "Isocortex/FL/CA1-FL-Input"
+  }, 
+  {
+   "Comment": "A connection from CA1 to ASC.", 
+   "FromModule": "CA1", 
+   "Name": "CA1-ASC", 
+   "FromPort": "CA1/CA1-ASC-Output", 
+   "ToModule": "ASC", 
+   "ToPort": "Isocortex/ASC/CA1-ASC-Input"
+  }, 
+  {
+   "Comment": "A connection from CA1 to BG.", 
+   "FromModule": "CA1", 
+   "Name": "CA1-BG", 
+   "FromPort": "CA1/CA1-BG-Output", 
+   "ToModule": "BG", 
+   "ToPort": "BG/CA1-BG-Input"
+  }, 
+  {
+   "Comment": "A connection from DVC to VVC.", 
+   "FromModule": "DVC", 
+   "Name": "DVC-VVC", 
+   "FromPort": "Isocortex/DVC/DVC-VVC-Output", 
+   "ToModule": "VVC", 
+   "ToPort": "Isocortex/VVC/DVC-VVC-Input"
+  }, 
+  {
+   "Comment": "A connection from DVC to UVU.", 
+   "FromModule": "DVC", 
+   "Name": "DVC-UVU", 
+   "FromPort": "Isocortex/DVC/DVC-UVU-Output", 
+   "ToModule": "UVU", 
+   "ToPort": "UB/UVU/DVC-UVU-Input"
+  }, 
+  {
+   "Comment": "A connection from DVC to BG.", 
+   "FromModule": "DVC", 
+   "Name": "DVC-BG", 
+   "FromPort": "Isocortex/DVC/DVC-BG-Output", 
+   "ToModule": "BG", 
+   "ToPort": "BG/DVC-BG-Input"
+  }, 
+  {
+   "Comment": "A connection from ASC to FL.", 
+   "FromModule": "ASC", 
+   "Name": "ASC-FL", 
+   "FromPort": "Isocortex/ASC/ASC-FL-Output", 
+   "ToModule": "FL", 
+   "ToPort": "Isocortex/FL/ASC-FL-Input"
+  }, 
+  {
+   "Comment": "A connection from UVQ to ASC.", 
+   "FromModule": "UVQ", 
+   "Name": "UVQ-ASC", 
+   "FromPort": "UB/UVQ/UVQ-ASC-Output", 
+   "ToModule": "ASC", 
+   "ToPort": "Isocortex/ASC/UVQ-ASC-Input"
+  }, 
+  {
+   "Comment": "A connection from ODC to UO.", 
+   "FromModule": "ODC", 
+   "Name": "ODC-UO", 
+   "FromPort": "Isocortex/ODC/ODC-UO-Output", 
+   "ToModule": "UO", 
+   "ToPort": "UB/UO/ODC-UO-Input"
+  }, 
+  {
+   "Comment": "A connection from VVC to ASC.", 
+   "FromModule": "VVC", 
+   "Name": "VVC-ASC", 
+   "FromPort": "Isocortex/VVC/VVC-ASC-Output", 
+   "ToModule": "ASC", 
+   "ToPort": "Isocortex/ASC/VVC-ASC-Input"
+  }, 
+  {
+   "Comment": "A connection from VVC to UVQ.", 
+   "FromModule": "VVC", 
+   "Name": "VVC-UVQ", 
+   "FromPort": "Isocortex/VVC/VVC-UVQ-Output", 
+   "ToModule": "UVQ", 
+   "ToPort": "UB/UVQ/VVC-UVQ-Input"
+  }, 
+  {
+   "Comment": "A connection from VVC to BG.", 
+   "FromModule": "VVC", 
+   "Name": "VVC-BG", 
+   "FromPort": "Isocortex/VVC/VVC-BG-Output", 
+   "ToModule": "BG", 
+   "ToPort": "BG/VVC-BG-Input"
+  }
+ ], 
+ "Header": {
+  "Base": "Hackathon2017WBRA", 
+  "Type": "A", 
+  "Name": "Hackathon2017WBRA"
+ }, 
+ "Modules": [
+  {
+   "Comment": "Umataro Allocentric I/O", 
+   "Name": "UAllo", 
+   "SuperModule": "UB", 
+   "Ports": [
+    "UAllo-ASC-Output", 
+    "UAllo-BG-Output"
+   ]
+  }, 
+  {
+   "Comment": "Basal Ganglia", 
+   "Name": "BG", 
+   "Ports": [
+    "UAllo-BG-Input", 
+    "BG-FL-Output", 
+    "FL-BG-Input", 
+    "CA1-BG-Input", 
+    "DVC-BG-Input", 
+    "VVC-BG-Input"
+   ]
+  }, 
+  {
+   "Comment": "Frontal Cortex", 
+   "Name": "FL", 
+   "SuperModule": "Isocortex", 
+   "Ports": [
+    "BG-FL-Input", 
+    "FL-ASC-Output", 
+    "FL-DVC-Output", 
+    "FL-BG-Output", 
+    "FL-MO-Output", 
+    "CA1-FL-Input", 
+    "ASC-FL-Input"
+   ]
+  }, 
+  {
+   "Comment": "Field CA1", 
+   "Name": "CA1", 
+   "Ports": [
+    "CA1-FL-Output", 
+    "CA1-ASC-Output", 
+    "CA1-BG-Output"
+   ]
+  }, 
+  {
+   "Comment": "Isocortex", 
+   "Name": "Isocortex", 
+   "SubModules": [
+    "FL", 
+    "ASC", 
+    "ODC", 
+    "DVC", 
+    "VVC"
+   ]
+  }, 
+  {
+   "Comment": "Visual Where Path", 
+   "Name": "DVC", 
+   "SuperModule": "Isocortex", 
+   "Ports": [
+    "FL-DVC-Input", 
+    "DVC-VVC-Output", 
+    "DVC-UVU-Output", 
+    "DVC-BG-Output"
+   ]
+  }, 
+  {
+   "Comment": "Umataro Visual Where (Ubi) I/O", 
+   "Name": "UVU", 
+   "SuperModule": "UB", 
+   "Ports": [
+    "DVC-UVU-Input"
+   ]
+  }, 
+  {
+   "Comment": "Associative Cortex", 
+   "Name": "ASC", 
+   "SuperModule": "Isocortex", 
+   "Ports": [
+    "UAllo-ASC-Input", 
+    "FL-ASC-Input", 
+    "CA1-ASC-Input", 
+    "ASC-FL-Output", 
+    "UVQ-ASC-Input", 
+    "VVC-ASC-Input"
+   ]
+  }, 
+  {
+   "Comment": "Umataro Odometry I/O", 
+   "Name": "UO", 
+   "SuperModule": "UB", 
+   "Ports": [
+    "ODC-UO-Input"
+   ]
+  }, 
+  {
+   "Comment": "Umataro Visual What (Quod) I/O", 
+   "Name": "UVQ", 
+   "SuperModule": "UB", 
+   "Ports": [
+    "UVQ-ASC-Output", 
+    "VVC-UVQ-Input"
+   ]
+  }, 
+  {
+   "Comment": "Odometry Cortex", 
+   "Name": "ODC", 
+   "SuperModule": "Isocortex", 
+   "Ports": [
+    "ODC-UO-Output"
+   ]
+  }, 
+  {
+   "Comment": "Visual What Path", 
+   "Name": "VVC", 
+   "SuperModule": "Isocortex", 
+   "Ports": [
+    "DVC-VVC-Input", 
+    "VVC-ASC-Output", 
+    "VVC-UVQ-Output", 
+    "VVC-BG-Output"
+   ]
+  }, 
+  {
+   "Comment": "Motor Outpu", 
+   "Name": "MO", 
+   "Ports": [
+    "FL-MO-Input"
+   ]
+  }, 
+  {
+   "Comment": "Perihippocampal Area and Hippocampal Formation", 
+   "Name": "UB", 
+   "SubModules": [
+    "UVQ", 
+    "UVU", 
+    "UO", 
+    "UAllo"
+   ]
+  }
+ ], 
+ "Ports": [
+  {
+   "Comment": "An output port of UAllo for connection to ASC.", 
+   "Type": "Output", 
+   "Name": "UAllo-ASC-Output", 
+   "Module": "UAllo"
+  }, 
+  {
+   "Comment": "An input port of UAllo for connection from ASC.", 
+   "Type": "Input", 
+   "Name": "UAllo-ASC-Input", 
+   "Module": "ASC"
+  }, 
+  {
+   "Comment": "An output port of UAllo for connection to BG.", 
+   "Type": "Output", 
+   "Name": "UAllo-BG-Output", 
+   "Module": "UAllo"
+  }, 
+  {
+   "Comment": "An input port of UAllo for connection from BG.", 
+   "Type": "Input", 
+   "Name": "UAllo-BG-Input", 
+   "Module": "BG"
+  }, 
+  {
+   "Comment": "An output port of BG for connection to FL.", 
+   "Type": "Output", 
+   "Name": "BG-FL-Output", 
+   "Module": "BG"
+  }, 
+  {
+   "Comment": "An input port of BG for connection from FL.", 
+   "Type": "Input", 
+   "Name": "BG-FL-Input", 
+   "Module": "FL"
+  }, 
+  {
+   "Comment": "An output port of FL for connection to ASC.", 
+   "Type": "Output", 
+   "Name": "FL-ASC-Output", 
+   "Module": "FL"
+  }, 
+  {
+   "Comment": "An input port of FL for connection from ASC.", 
+   "Type": "Input", 
+   "Name": "FL-ASC-Input", 
+   "Module": "ASC"
+  }, 
+  {
+   "Comment": "An output port of FL for connection to DVC.", 
+   "Type": "Output", 
+   "Name": "FL-DVC-Output", 
+   "Module": "FL"
+  }, 
+  {
+   "Comment": "An input port of FL for connection from DVC.", 
+   "Type": "Input", 
+   "Name": "FL-DVC-Input", 
+   "Module": "DVC"
+  }, 
+  {
+   "Comment": "An output port of FL for connection to BG.", 
+   "Type": "Output", 
+   "Name": "FL-BG-Output", 
+   "Module": "FL"
+  }, 
+  {
+   "Comment": "An input port of FL for connection from BG.", 
+   "Type": "Input", 
+   "Name": "FL-BG-Input", 
+   "Module": "BG"
+  }, 
+  {
+   "Comment": "An output port of FL for connection to MO.", 
+   "Type": "Output", 
+   "Name": "FL-MO-Output", 
+   "Module": "FL"
+  }, 
+  {
+   "Comment": "An input port of FL for connection from MO.", 
+   "Type": "Input", 
+   "Name": "FL-MO-Input", 
+   "Module": "MO"
+  }, 
+  {
+   "Comment": "An output port of CA1 for connection to FL.", 
+   "Type": "Output", 
+   "Name": "CA1-FL-Output", 
+   "Module": "CA1"
+  }, 
+  {
+   "Comment": "An input port of CA1 for connection from FL.", 
+   "Type": "Input", 
+   "Name": "CA1-FL-Input", 
+   "Module": "FL"
+  }, 
+  {
+   "Comment": "An output port of CA1 for connection to ASC.", 
+   "Type": "Output", 
+   "Name": "CA1-ASC-Output", 
+   "Module": "CA1"
+  }, 
+  {
+   "Comment": "An input port of CA1 for connection from ASC.", 
+   "Type": "Input", 
+   "Name": "CA1-ASC-Input", 
+   "Module": "ASC"
+  }, 
+  {
+   "Comment": "An output port of CA1 for connection to BG.", 
+   "Type": "Output", 
+   "Name": "CA1-BG-Output", 
+   "Module": "CA1"
+  }, 
+  {
+   "Comment": "An input port of CA1 for connection from BG.", 
+   "Type": "Input", 
+   "Name": "CA1-BG-Input", 
+   "Module": "BG"
+  }, 
+  {
+   "Comment": "An output port of DVC for connection to VVC.", 
+   "Type": "Output", 
+   "Name": "DVC-VVC-Output", 
+   "Module": "DVC"
+  }, 
+  {
+   "Comment": "An input port of DVC for connection from VVC.", 
+   "Type": "Input", 
+   "Name": "DVC-VVC-Input", 
+   "Module": "VVC"
+  }, 
+  {
+   "Comment": "An output port of DVC for connection to UVU.", 
+   "Type": "Output", 
+   "Name": "DVC-UVU-Output", 
+   "Module": "DVC"
+  }, 
+  {
+   "Comment": "An input port of DVC for connection from UVU.", 
+   "Type": "Input", 
+   "Name": "DVC-UVU-Input", 
+   "Module": "UVU"
+  }, 
+  {
+   "Comment": "An output port of DVC for connection to BG.", 
+   "Type": "Output", 
+   "Name": "DVC-BG-Output", 
+   "Module": "DVC"
+  }, 
+  {
+   "Comment": "An input port of DVC for connection from BG.", 
+   "Type": "Input", 
+   "Name": "DVC-BG-Input", 
+   "Module": "BG"
+  }, 
+  {
+   "Comment": "An output port of ASC for connection to FL.", 
+   "Type": "Output", 
+   "Name": "ASC-FL-Output", 
+   "Module": "ASC"
+  }, 
+  {
+   "Comment": "An input port of ASC for connection from FL.", 
+   "Type": "Input", 
+   "Name": "ASC-FL-Input", 
+   "Module": "FL"
+  }, 
+  {
+   "Comment": "An output port of UVQ for connection to ASC.", 
+   "Type": "Output", 
+   "Name": "UVQ-ASC-Output", 
+   "Module": "UVQ"
+  }, 
+  {
+   "Comment": "An input port of UVQ for connection from ASC.", 
+   "Type": "Input", 
+   "Name": "UVQ-ASC-Input", 
+   "Module": "ASC"
+  }, 
+  {
+   "Comment": "An output port of ODC for connection to UO.", 
+   "Type": "Output", 
+   "Name": "ODC-UO-Output", 
+   "Module": "ODC"
+  }, 
+  {
+   "Comment": "An input port of ODC for connection from UO.", 
+   "Type": "Input", 
+   "Name": "ODC-UO-Input", 
+   "Module": "UO"
+  }, 
+  {
+   "Comment": "An output port of VVC for connection to ASC.", 
+   "Type": "Output", 
+   "Name": "VVC-ASC-Output", 
+   "Module": "VVC"
+  }, 
+  {
+   "Comment": "An input port of VVC for connection from ASC.", 
+   "Type": "Input", 
+   "Name": "VVC-ASC-Input", 
+   "Module": "ASC"
+  }, 
+  {
+   "Comment": "An output port of VVC for connection to UVQ.", 
+   "Type": "Output", 
+   "Name": "VVC-UVQ-Output", 
+   "Module": "VVC"
+  }, 
+  {
+   "Comment": "An input port of VVC for connection from UVQ.", 
+   "Type": "Input", 
+   "Name": "VVC-UVQ-Input", 
+   "Module": "UVQ"
+  }, 
+  {
+   "Comment": "An output port of VVC for connection to BG.", 
+   "Type": "Output", 
+   "Name": "VVC-BG-Output", 
+   "Module": "VVC"
+  }, 
+  {
+   "Comment": "An input port of VVC for connection from BG.", 
+   "Type": "Input", 
+   "Name": "VVC-BG-Input", 
+   "Module": "BG"
+  }
+ ]
+}
