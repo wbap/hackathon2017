@@ -7,4 +7,3 @@ UVQ	UB
 UVU	UB
 UO	UB
 UAllo	UB
-CA1	UB

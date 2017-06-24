@@ -9,6 +9,5 @@ UVQ	UVQ	Umataro Visual Quod I/O	Umataro Visual What (Quod) I/O
 UVU	UVU	Umataro Visual Ubi I/O	Umataro Visual Where (Ubi) I/O
 UO	UO	Umataro Odometry I/O	Umataro Odometry I/O
 UAllo	UAllo	Umataro Allocentric I/O	Umataro Allocentric I/O
-CA1	CA1	Field CA1	Field CA1
 BG	BG	Basal Ganglia	Basal Ganglia
 MO	MO	Motor Output	Motor Output

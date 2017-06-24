@@ -1,13 +1,12 @@
-	FL	ASC	ODC	DVC	VVC	UVQ	UVU	UO	UAllo	CA1	BG	MO
-FL		1		1							1	1
-ASC	1											
-ODC								1				
-DVC		 			1		1				1	
-VVC		1				1					1	
-UVQ		1										
-UVU												
-UO												
-UAllo		1									1	
-CA1	1	1									1	
-BG	1											
-MO												
+	FL	ASC	ODC	DVC	VVC	UVQ	UVU	UO	UAllo	BG	MO
+FL		1		1						1	1
+ASC	1										
+ODC								1			
+DVC		 			1		1			1	
+VVC		1				1				1	
+UVQ		1									
+UVU											
+UO											
+UAllo	1	1								1	
+BG	1										
+MO											

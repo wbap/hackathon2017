@@ -1,6 +1,14 @@
 {
  "Connections": [
   {
+   "Comment": "A connection from UAllo to FL.", 
+   "FromModule": "UAllo", 
+   "Name": "UAllo-FL", 
+   "FromPort": "UB/UAllo/UAllo-FL-Output", 
+   "ToModule": "FL", 
+   "ToPort": "Isocortex/FL/UAllo-FL-Input"
+  }, 
+  {
    "Comment": "A connection from UAllo to ASC.", 
    "FromModule": "UAllo", 
    "Name": "UAllo-ASC", 
@@ -55,30 +63,6 @@
    "FromPort": "Isocortex/FL/FL-MO-Output", 
    "ToModule": "MO", 
    "ToPort": "MO/FL-MO-Input"
-  }, 
-  {
-   "Comment": "A connection from CA1 to FL.", 
-   "FromModule": "CA1", 
-   "Name": "CA1-FL", 
-   "FromPort": "CA1/CA1-FL-Output", 
-   "ToModule": "FL", 
-   "ToPort": "Isocortex/FL/CA1-FL-Input"
-  }, 
-  {
-   "Comment": "A connection from CA1 to ASC.", 
-   "FromModule": "CA1", 
-   "Name": "CA1-ASC", 
-   "FromPort": "CA1/CA1-ASC-Output", 
-   "ToModule": "ASC", 
-   "ToPort": "Isocortex/ASC/CA1-ASC-Input"
-  }, 
-  {
-   "Comment": "A connection from CA1 to BG.", 
-   "FromModule": "CA1", 
-   "Name": "CA1-BG", 
-   "FromPort": "CA1/CA1-BG-Output", 
-   "ToModule": "BG", 
-   "ToPort": "BG/CA1-BG-Input"
   }, 
   {
    "Comment": "A connection from DVC to VVC.", 
@@ -164,6 +148,7 @@
    "Name": "UAllo", 
    "SuperModule": "UB", 
    "Ports": [
+    "UAllo-FL-Output", 
     "UAllo-ASC-Output", 
     "UAllo-BG-Output"
    ]
@@ -175,7 +160,6 @@
     "UAllo-BG-Input", 
     "BG-FL-Output", 
     "FL-BG-Input", 
-    "CA1-BG-Input", 
     "DVC-BG-Input", 
     "VVC-BG-Input"
    ]
@@ -185,22 +169,20 @@
    "Name": "FL", 
    "SuperModule": "Isocortex", 
    "Ports": [
+    "UAllo-FL-Input", 
     "BG-FL-Input", 
     "FL-ASC-Output", 
     "FL-DVC-Output", 
     "FL-BG-Output", 
     "FL-MO-Output", 
-    "CA1-FL-Input", 
     "ASC-FL-Input"
    ]
   }, 
   {
-   "Comment": "Field CA1", 
-   "Name": "CA1", 
+   "Comment": "Motor Outpu", 
+   "Name": "MO", 
    "Ports": [
-    "CA1-FL-Output", 
-    "CA1-ASC-Output", 
-    "CA1-BG-Output"
+    "FL-MO-Input"
    ]
   }, 
   {
@@ -240,7 +222,6 @@
    "Ports": [
     "UAllo-ASC-Input", 
     "FL-ASC-Input", 
-    "CA1-ASC-Input", 
     "ASC-FL-Output", 
     "UVQ-ASC-Input", 
     "VVC-ASC-Input"
@@ -283,13 +264,6 @@
    ]
   }, 
   {
-   "Comment": "Motor Outpu", 
-   "Name": "MO", 
-   "Ports": [
-    "FL-MO-Input"
-   ]
-  }, 
-  {
    "Comment": "Perihippocampal Area and Hippocampal Formation", 
    "Name": "UB", 
    "SubModules": [
@@ -301,6 +275,18 @@
   }
  ], 
  "Ports": [
+  {
+   "Comment": "An output port of UAllo for connection to FL.", 
+   "Type": "Output", 
+   "Name": "UAllo-FL-Output", 
+   "Module": "UAllo"
+  }, 
+  {
+   "Comment": "An input port of UAllo for connection from FL.", 
+   "Type": "Input", 
+   "Name": "UAllo-FL-Input", 
+   "Module": "FL"
+  }, 
   {
    "Comment": "An output port of UAllo for connection to ASC.", 
    "Type": "Output", 
@@ -384,42 +370,6 @@
    "Type": "Input", 
    "Name": "FL-MO-Input", 
    "Module": "MO"
-  }, 
-  {
-   "Comment": "An output port of CA1 for connection to FL.", 
-   "Type": "Output", 
-   "Name": "CA1-FL-Output", 
-   "Module": "CA1"
-  }, 
-  {
-   "Comment": "An input port of CA1 for connection from FL.", 
-   "Type": "Input", 
-   "Name": "CA1-FL-Input", 
-   "Module": "FL"
-  }, 
-  {
-   "Comment": "An output port of CA1 for connection to ASC.", 
-   "Type": "Output", 
-   "Name": "CA1-ASC-Output", 
-   "Module": "CA1"
-  }, 
-  {
-   "Comment": "An input port of CA1 for connection from ASC.", 
-   "Type": "Input", 
-   "Name": "CA1-ASC-Input", 
-   "Module": "ASC"
-  }, 
-  {
-   "Comment": "An output port of CA1 for connection to BG.", 
-   "Type": "Output", 
-   "Name": "CA1-BG-Output", 
-   "Module": "CA1"
-  }, 
-  {
-   "Comment": "An input port of CA1 for connection from BG.", 
-   "Type": "Input", 
-   "Name": "CA1-BG-Input", 
-   "Module": "BG"
   }, 
   {
    "Comment": "An output port of DVC for connection to VVC.", 
