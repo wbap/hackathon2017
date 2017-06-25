@@ -1,9 +1,0 @@
-FL	Isocortex
-ASC	Isocortex
-ODC	Isocortex
-DVC	Isocortex
-VVC	Isocortex
-UVQ	UB
-UVU	UB
-UO	UB
-UAllo	UB
