@@ -1,142 +1,4 @@
 {
- "Connections": [
-  {
-   "Comment": "A connection from Isocortex.FL to Isocortex.ASC.", 
-   "FromModule": "Isocortex.FL", 
-   "Name": "Isocortex.FL-Isocortex.ASC", 
-   "FromPort": "Isocortex.FL-Isocortex.ASC-Output", 
-   "ToModule": "Isocortex.ASC", 
-   "ToPort": "Isocortex.FL-Isocortex.ASC-Input"
-  }, 
-  {
-   "Comment": "A connection from Isocortex.FL to Isocortex.DVC.", 
-   "FromModule": "Isocortex.FL", 
-   "Name": "Isocortex.FL-Isocortex.DVC", 
-   "FromPort": "Isocortex.FL-Isocortex.DVC-Output", 
-   "ToModule": "Isocortex.DVC", 
-   "ToPort": "Isocortex.FL-Isocortex.DVC-Input"
-  }, 
-  {
-   "Comment": "A connection from Isocortex.FL to BG.", 
-   "FromModule": "Isocortex.FL", 
-   "Name": "Isocortex.FL-BG", 
-   "FromPort": "Isocortex.FL-BG-Output", 
-   "ToModule": "BG", 
-   "ToPort": "Isocortex.FL-BG-Input"
-  }, 
-  {
-   "Comment": "A connection from Isocortex.FL to MO.", 
-   "FromModule": "Isocortex.FL", 
-   "Name": "Isocortex.FL-MO", 
-   "FromPort": "Isocortex.FL-MO-Output", 
-   "ToModule": "MO", 
-   "ToPort": "Isocortex.FL-MO-Input"
-  }, 
-  {
-   "Comment": "A connection from BG to Isocortex.FL.", 
-   "FromModule": "BG", 
-   "Name": "BG-Isocortex.FL", 
-   "FromPort": "BG-Isocortex.FL-Output", 
-   "ToModule": "Isocortex.FL", 
-   "ToPort": "BG-Isocortex.FL-Input"
-  }, 
-  {
-   "Comment": "A connection from Isocortex.ASC to Isocortex.FL.", 
-   "FromModule": "Isocortex.ASC", 
-   "Name": "Isocortex.ASC-Isocortex.FL", 
-   "FromPort": "Isocortex.ASC-Isocortex.FL-Output", 
-   "ToModule": "Isocortex.FL", 
-   "ToPort": "Isocortex.ASC-Isocortex.FL-Input"
-  }, 
-  {
-   "Comment": "A connection from Isocortex.ODC to UB.UO.", 
-   "FromModule": "Isocortex.ODC", 
-   "Name": "Isocortex.ODC-UB.UO", 
-   "FromPort": "Isocortex.ODC-UB.UO-Output", 
-   "ToModule": "UB.UO", 
-   "ToPort": "Isocortex.ODC-UB.UO-Input"
-  }, 
-  {
-   "Comment": "A connection from UB.UAllo to Isocortex.FL.", 
-   "FromModule": "UB.UAllo", 
-   "Name": "UB.UAllo-Isocortex.FL", 
-   "FromPort": "UB.UAllo-Isocortex.FL-Output", 
-   "ToModule": "Isocortex.FL", 
-   "ToPort": "UB.UAllo-Isocortex.FL-Input"
-  }, 
-  {
-   "Comment": "A connection from UB.UAllo to Isocortex.ASC.", 
-   "FromModule": "UB.UAllo", 
-   "Name": "UB.UAllo-Isocortex.ASC", 
-   "FromPort": "UB.UAllo-Isocortex.ASC-Output", 
-   "ToModule": "Isocortex.ASC", 
-   "ToPort": "UB.UAllo-Isocortex.ASC-Input"
-  }, 
-  {
-   "Comment": "A connection from UB.UAllo to BG.", 
-   "FromModule": "UB.UAllo", 
-   "Name": "UB.UAllo-BG", 
-   "FromPort": "UB.UAllo-BG-Output", 
-   "ToModule": "BG", 
-   "ToPort": "UB.UAllo-BG-Input"
-  }, 
-  {
-   "Comment": "A connection from Isocortex.VVC to Isocortex.ASC.", 
-   "FromModule": "Isocortex.VVC", 
-   "Name": "Isocortex.VVC-Isocortex.ASC", 
-   "FromPort": "Isocortex.VVC-Isocortex.ASC-Output", 
-   "ToModule": "Isocortex.ASC", 
-   "ToPort": "Isocortex.VVC-Isocortex.ASC-Input"
-  }, 
-  {
-   "Comment": "A connection from Isocortex.VVC to UB.UVQ.", 
-   "FromModule": "Isocortex.VVC", 
-   "Name": "Isocortex.VVC-UB.UVQ", 
-   "FromPort": "Isocortex.VVC-UB.UVQ-Output", 
-   "ToModule": "UB.UVQ", 
-   "ToPort": "Isocortex.VVC-UB.UVQ-Input"
-  }, 
-  {
-   "Comment": "A connection from Isocortex.VVC to BG.", 
-   "FromModule": "Isocortex.VVC", 
-   "Name": "Isocortex.VVC-BG", 
-   "FromPort": "Isocortex.VVC-BG-Output", 
-   "ToModule": "BG", 
-   "ToPort": "Isocortex.VVC-BG-Input"
-  }, 
-  {
-   "Comment": "A connection from UB.UVQ to Isocortex.ASC.", 
-   "FromModule": "UB.UVQ", 
-   "Name": "UB.UVQ-Isocortex.ASC", 
-   "FromPort": "UB.UVQ-Isocortex.ASC-Output", 
-   "ToModule": "Isocortex.ASC", 
-   "ToPort": "UB.UVQ-Isocortex.ASC-Input"
-  }, 
-  {
-   "Comment": "A connection from Isocortex.DVC to Isocortex.VVC.", 
-   "FromModule": "Isocortex.DVC", 
-   "Name": "Isocortex.DVC-Isocortex.VVC", 
-   "FromPort": "Isocortex.DVC-Isocortex.VVC-Output", 
-   "ToModule": "Isocortex.VVC", 
-   "ToPort": "Isocortex.DVC-Isocortex.VVC-Input"
-  }, 
-  {
-   "Comment": "A connection from Isocortex.DVC to UB.UVU.", 
-   "FromModule": "Isocortex.DVC", 
-   "Name": "Isocortex.DVC-UB.UVU", 
-   "FromPort": "Isocortex.DVC-UB.UVU-Output", 
-   "ToModule": "UB.UVU", 
-   "ToPort": "Isocortex.DVC-UB.UVU-Input"
-  }, 
-  {
-   "Comment": "A connection from Isocortex.DVC to BG.", 
-   "FromModule": "Isocortex.DVC", 
-   "Name": "Isocortex.DVC-BG", 
-   "FromPort": "Isocortex.DVC-BG-Output", 
-   "ToModule": "BG", 
-   "ToPort": "Isocortex.DVC-BG-Input"
-  }
- ], 
  "Header": {
   "Base": "WBAH2017WBRA", 
   "Type": "A", 
@@ -186,36 +48,6 @@
    ]
   }, 
   {
-   "Comment": "Umataro Odometry I/O", 
-   "Name": "UB.UO", 
-   "Ports": [
-    "Isocortex.ODC-UB.UO-Input"
-   ]
-  }, 
-  {
-   "Comment": "Odometry Cortex", 
-   "Name": "Isocortex.ODC", 
-   "Ports": [
-    "Isocortex.ODC-UB.UO-Output"
-   ]
-  }, 
-  {
-   "Comment": "Umataro Allocentric I/O", 
-   "Name": "UB.UAllo", 
-   "Ports": [
-    "UB.UAllo-Isocortex.FL-Output", 
-    "UB.UAllo-Isocortex.ASC-Output", 
-    "UB.UAllo-BG-Output"
-   ]
-  }, 
-  {
-   "Comment": "Umataro Visual Where (Ubi) I/O", 
-   "Name": "UB.UVU", 
-   "Ports": [
-    "Isocortex.DVC-UB.UVU-Input"
-   ]
-  }, 
-  {
    "Comment": "Visual What Path", 
    "Name": "Isocortex.VVC", 
    "Ports": [
@@ -226,11 +58,10 @@
    ]
   }, 
   {
-   "Comment": "Umataro Visual What (Quod) I/O", 
-   "Name": "UB.UVQ", 
+   "Comment": "Odometry Cortex", 
+   "Name": "Isocortex.ODC", 
    "Ports": [
-    "Isocortex.VVC-UB.UVQ-Input", 
-    "UB.UVQ-Isocortex.ASC-Output"
+    "Isocortex.ODC-UB.UO-Output"
    ]
   }, 
   {
@@ -241,6 +72,19 @@
     "Isocortex.DVC-Isocortex.VVC-Output", 
     "Isocortex.DVC-UB.UVU-Output", 
     "Isocortex.DVC-BG-Output"
+   ]
+  },
+  {
+   "Comment": "The hippocampus and its surrrounding areas", 
+   "Name": "UmataroBox", 
+   "Ports": [
+    "Isocortex.VVC-UB.UVQ-Input", 
+    "Isocortex.DVC-UB.UVU-Input",
+    "Isocortex.ODC-UB.UO-Input",
+    "UB.UVQ-Isocortex.ASC-Output",
+    "UB.UAllo-Isocortex.FL-Output", 
+    "UB.UAllo-Isocortex.ASC-Output", 
+    "UB.UAllo-BG-Output"
    ]
   }
  ], 
@@ -318,49 +162,49 @@
    "Module": "Isocortex.FL"
   }, 
   {
-   "Comment": "An output port of Isocortex.ODC for connection to UB.UO.", 
+   "Comment": "An output port of Isocortex.ODC for connection to UB.UO (the Odometry port)", 
    "Type": "Output", 
    "Name": "Isocortex.ODC-UB.UO-Output", 
    "Module": "Isocortex.ODC"
   }, 
   {
-   "Comment": "An input port of UB.UO for connection from Isocortex.ODC.", 
+   "Comment": "An input port of UB.UO (the Odometry IO) for connection from Isocortex.ODC.", 
    "Type": "Input", 
    "Name": "Isocortex.ODC-UB.UO-Input", 
-   "Module": "UB.UO"
+   "Module": "UmataroBox"
   }, 
   {
-   "Comment": "An output port of UB.UAllo for connection to Isocortex.FL.", 
+   "Comment": "An output port of UB.UAllo (the allocentric IO) for connection to Isocortex.FL.", 
    "Type": "Output", 
    "Name": "UB.UAllo-Isocortex.FL-Output", 
-   "Module": "UB.UAllo"
+   "Module": "UmataroBox"
   }, 
   {
-   "Comment": "An input port of Isocortex.FL for connection from UB.UAllo.", 
+   "Comment": "An input port of Isocortex.FL for connection from UB.UAllo (the allocentric IO).", 
    "Type": "Input", 
    "Name": "UB.UAllo-Isocortex.FL-Input", 
    "Module": "Isocortex.FL"
   }, 
   {
-   "Comment": "An output port of UB.UAllo for connection to Isocortex.ASC.", 
+   "Comment": "An output port of UB.UAllo (the allocentric IO) for connection to Isocortex.ASC.", 
    "Type": "Output", 
    "Name": "UB.UAllo-Isocortex.ASC-Output", 
-   "Module": "UB.UAllo"
+   "Module": "UmataroBox"
   }, 
   {
-   "Comment": "An input port of Isocortex.ASC for connection from UB.UAllo.", 
+   "Comment": "An input port of Isocortex.ASC for connection from UB.UAllo (the allocentric IO).", 
    "Type": "Input", 
    "Name": "UB.UAllo-Isocortex.ASC-Input", 
    "Module": "Isocortex.ASC"
   }, 
   {
-   "Comment": "An output port of UB.UAllo for connection to BG.", 
+   "Comment": "An output port of UB.UAllo (the allocentric IO) for connection to BG.", 
    "Type": "Output", 
    "Name": "UB.UAllo-BG-Output", 
-   "Module": "UB.UAllo"
+   "Module": "UmataroBox"
   }, 
   {
-   "Comment": "An input port of BG for connection from UB.UAllo.", 
+   "Comment": "An input port of BG for connection from UB.UAllo (the allocentric IO).", 
    "Type": "Input", 
    "Name": "UB.UAllo-BG-Input", 
    "Module": "BG"
@@ -378,16 +222,16 @@
    "Module": "Isocortex.ASC"
   }, 
   {
-   "Comment": "An output port of Isocortex.VVC for connection to UB.UVQ.", 
+   "Comment": "An output port of Isocortex.VVC for connection to UB.UVQ (the visual what/quod IO).", 
    "Type": "Output", 
    "Name": "Isocortex.VVC-UB.UVQ-Output", 
    "Module": "Isocortex.VVC"
   }, 
   {
-   "Comment": "An input port of UB.UVQ for connection from Isocortex.VVC.", 
+   "Comment": "An input port of UB.UVQ (the visual what/quod IO) for connection from Isocortex.VVC.", 
    "Type": "Input", 
    "Name": "Isocortex.VVC-UB.UVQ-Input", 
-   "Module": "UB.UVQ"
+   "Module": "UmataroBox"
   }, 
   {
    "Comment": "An output port of Isocortex.VVC for connection to BG.", 
@@ -402,13 +246,13 @@
    "Module": "BG"
   }, 
   {
-   "Comment": "An output port of UB.UVQ for connection to Isocortex.ASC.", 
+   "Comment": "An output port of UB.UVQ (the visual what/quod IO) for connection to Isocortex.ASC.", 
    "Type": "Output", 
    "Name": "UB.UVQ-Isocortex.ASC-Output", 
-   "Module": "UB.UVQ"
+   "Module": "UmataroBox"
   }, 
   {
-   "Comment": "An input port of Isocortex.ASC for connection from UB.UVQ.", 
+   "Comment": "An input port of Isocortex.ASC for connection from UB.UVQ (the visual what/quod IO).", 
    "Type": "Input", 
    "Name": "UB.UVQ-Isocortex.ASC-Input", 
    "Module": "Isocortex.ASC"
@@ -426,16 +270,16 @@
    "Module": "Isocortex.VVC"
   }, 
   {
-   "Comment": "An output port of Isocortex.DVC for connection to UB.UVU.", 
+   "Comment": "An output port of Isocortex.DVC for connection to UB.UVU (the visual where/ubi IO).", 
    "Type": "Output", 
    "Name": "Isocortex.DVC-UB.UVU-Output", 
    "Module": "Isocortex.DVC"
   }, 
   {
-   "Comment": "An input port of UB.UVU for connection from Isocortex.DVC.", 
+   "Comment": "An input port of UB.UVU (the visual where/ubi IO) for connection from Isocortex.DVC.", 
    "Type": "Input", 
    "Name": "Isocortex.DVC-UB.UVU-Input", 
-   "Module": "UB.UVU"
+   "Module": "UmataroBox"
   }, 
   {
    "Comment": "An output port of Isocortex.DVC for connection to BG.", 
@@ -448,6 +292,144 @@
    "Type": "Input", 
    "Name": "Isocortex.DVC-BG-Input", 
    "Module": "BG"
+  }
+ ],
+ "Connections": [
+  {
+   "Comment": "A connection from Isocortex.FL to Isocortex.ASC.", 
+   "FromModule": "Isocortex.FL", 
+   "Name": "Isocortex.FL-Isocortex.ASC", 
+   "FromPort": "Isocortex.FL-Isocortex.ASC-Output", 
+   "ToModule": "Isocortex.ASC", 
+   "ToPort": "Isocortex.FL-Isocortex.ASC-Input"
+  }, 
+  {
+   "Comment": "A connection from Isocortex.FL to Isocortex.DVC.", 
+   "FromModule": "Isocortex.FL", 
+   "Name": "Isocortex.FL-Isocortex.DVC", 
+   "FromPort": "Isocortex.FL-Isocortex.DVC-Output", 
+   "ToModule": "Isocortex.DVC", 
+   "ToPort": "Isocortex.FL-Isocortex.DVC-Input"
+  }, 
+  {
+   "Comment": "A connection from Isocortex.FL to BG.", 
+   "FromModule": "Isocortex.FL", 
+   "Name": "Isocortex.FL-BG", 
+   "FromPort": "Isocortex.FL-BG-Output", 
+   "ToModule": "BG", 
+   "ToPort": "Isocortex.FL-BG-Input"
+  }, 
+  {
+   "Comment": "A connection from Isocortex.FL to MO.", 
+   "FromModule": "Isocortex.FL", 
+   "Name": "Isocortex.FL-MO", 
+   "FromPort": "Isocortex.FL-MO-Output", 
+   "ToModule": "MO", 
+   "ToPort": "Isocortex.FL-MO-Input"
+  }, 
+  {
+   "Comment": "A connection from BG to Isocortex.FL.", 
+   "FromModule": "BG", 
+   "Name": "BG-Isocortex.FL", 
+   "FromPort": "BG-Isocortex.FL-Output", 
+   "ToModule": "Isocortex.FL", 
+   "ToPort": "BG-Isocortex.FL-Input"
+  }, 
+  {
+   "Comment": "A connection from Isocortex.ASC to Isocortex.FL.", 
+   "FromModule": "Isocortex.ASC", 
+   "Name": "Isocortex.ASC-Isocortex.FL", 
+   "FromPort": "Isocortex.ASC-Isocortex.FL-Output", 
+   "ToModule": "Isocortex.FL", 
+   "ToPort": "Isocortex.ASC-Isocortex.FL-Input"
+  }, 
+  {
+   "Comment": "A connection from Isocortex.ODC to UB.UO (the odometry IO).", 
+   "FromModule": "Isocortex.ODC", 
+   "Name": "Isocortex.ODC-UB.UO", 
+   "FromPort": "Isocortex.ODC-UB.UO-Output", 
+   "ToModule": "UmataroBox", 
+   "ToPort": "Isocortex.ODC-UB.UO-Input"
+  }, 
+  {
+   "Comment": "A connection from UB.UAllo (the allocentric IO) to Isocortex.FL.", 
+   "FromModule": "UmataroBox", 
+   "Name": "UB.UAllo-Isocortex.FL", 
+   "FromPort": "UB.UAllo-Isocortex.FL-Output", 
+   "ToModule": "Isocortex.FL", 
+   "ToPort": "UB.UAllo-Isocortex.FL-Input"
+  }, 
+  {
+   "Comment": "A connection from UB.UAllo (the allocentric IO) to Isocortex.ASC.", 
+   "FromModule": "UmataroBox", 
+   "Name": "UB.UAllo-Isocortex.ASC", 
+   "FromPort": "UB.UAllo-Isocortex.ASC-Output", 
+   "ToModule": "Isocortex.ASC", 
+   "ToPort": "UB.UAllo-Isocortex.ASC-Input"
+  }, 
+  {
+   "Comment": "A connection from UB.UAllo (the allocentric IO) to BG.", 
+   "FromModule": "UmataroBox", 
+   "Name": "UB.UAllo-BG", 
+   "FromPort": "UB.UAllo-BG-Output", 
+   "ToModule": "BG", 
+   "ToPort": "UB.UAllo-BG-Input"
+  }, 
+  {
+   "Comment": "A connection from Isocortex.VVC to Isocortex.ASC.", 
+   "FromModule": "Isocortex.VVC", 
+   "Name": "Isocortex.VVC-Isocortex.ASC", 
+   "FromPort": "Isocortex.VVC-Isocortex.ASC-Output", 
+   "ToModule": "Isocortex.ASC", 
+   "ToPort": "Isocortex.VVC-Isocortex.ASC-Input"
+  }, 
+  {
+   "Comment": "A connection from Isocortex.VVC to UB.UVQ (the visual what/quod IO).", 
+   "FromModule": "Isocortex.VVC", 
+   "Name": "Isocortex.VVC-UB.UVQ", 
+   "FromPort": "Isocortex.VVC-UB.UVQ-Output", 
+   "ToModule": "UmataroBox", 
+   "ToPort": "Isocortex.VVC-UB.UVQ-Input"
+  }, 
+  {
+   "Comment": "A connection from Isocortex.VVC to BG.", 
+   "FromModule": "Isocortex.VVC", 
+   "Name": "Isocortex.VVC-BG", 
+   "FromPort": "Isocortex.VVC-BG-Output", 
+   "ToModule": "BG", 
+   "ToPort": "Isocortex.VVC-BG-Input"
+  }, 
+  {
+   "Comment": "A connection from UB.UVQ (the visual what/quod IO) to Isocortex.ASC.", 
+   "FromModule": "UmataroBox", 
+   "Name": "UB.UVQ-Isocortex.ASC", 
+   "FromPort": "UB.UVQ-Isocortex.ASC-Output", 
+   "ToModule": "Isocortex.ASC", 
+   "ToPort": "UB.UVQ-Isocortex.ASC-Input"
+  }, 
+  {
+   "Comment": "A connection from Isocortex.DVC to Isocortex.VVC.", 
+   "FromModule": "Isocortex.DVC", 
+   "Name": "Isocortex.DVC-Isocortex.VVC", 
+   "FromPort": "Isocortex.DVC-Isocortex.VVC-Output", 
+   "ToModule": "Isocortex.VVC", 
+   "ToPort": "Isocortex.DVC-Isocortex.VVC-Input"
+  }, 
+  {
+   "Comment": "A connection from Isocortex.DVC to UB.UVU (the visual where/ubi IO).", 
+   "FromModule": "Isocortex.DVC", 
+   "Name": "Isocortex.DVC-UB.UVU", 
+   "FromPort": "Isocortex.DVC-UB.UVU-Output", 
+   "ToModule": "UmataroBox", 
+   "ToPort": "Isocortex.DVC-UB.UVU-Input"
+  }, 
+  {
+   "Comment": "A connection from Isocortex.DVC to BG.", 
+   "FromModule": "Isocortex.DVC", 
+   "Name": "Isocortex.DVC-BG", 
+   "FromPort": "Isocortex.DVC-BG-Output", 
+   "ToModule": "BG", 
+   "ToPort": "Isocortex.DVC-BG-Input"
   }
  ]
 }
