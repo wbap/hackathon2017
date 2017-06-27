@@ -3,9 +3,9 @@ Isocortex.ASC	Isocortex.ASC	Associative Cortex	Associative Cortex
 Isocortex.ODC	Isocortex.ODC	Odometry Cortex	Odometry Cortex
 Isocortex.DVC	Isocortex.DVC	Dorsal Visual Cortex	Visual Where Path
 Isocortex.VVC	Isocortex.VVC	Ventral Visual Cortex	Visual What Path
-UB.UVQ	Isocortex.UVQ	Umataro Visual Quod I/O	Umataro Visual What (Quod) I/O
-UB.UVU	Isocortex.UVU	Umataro Visual Ubi I/O	Umataro Visual Where (Ubi) I/O
-UB.UO	Isocortex.UO	Umataro Odometry I/O	Umataro Odometry I/O
-UB.UAllo	Isocortex.UAllo	Umataro Allocentric I/O	Umataro Allocentric I/O
+UB.UVQ	UB.UVQ	Umataro Visual Quod I/O	Umataro Visual What (Quod) I/O
+UB.UVU	UB.UVU	Umataro Visual Ubi I/O	Umataro Visual Where (Ubi) I/O
+UB.UO	UB.UO	Umataro Odometry I/O	Umataro Odometry I/O
+UB.UAllo	UB.UAllo	Umataro Allocentric I/O	Umataro Allocentric I/O
 BG	BG	Basal Ganglia	Basal Ganglia
 MO	MO	Motor Output	Motor Output
