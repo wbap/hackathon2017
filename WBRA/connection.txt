@@ -1,12 +1,10 @@
-	Isocortex.FL	Isocortex.ASC	Isocortex.ODC	Isocortex.DVC	Isocortex.VVC	UB.UVQ	UB.UVU	UB.UO	UB.UAllo	BG	MO
-Isocortex.FL		1		1						1	1
-Isocortex.ASC	1										
-Isocortex.ODC								1			
-Isocortex.DVC		 			1		1			1	
-Isocortex.VVC		1				1				1	
-UB.UVQ		1									
-UB.UVU											
-UB.UO											
-UB.UAllo	1	1								1	
-BG	1										
-MO											
+	Isocortex.FL	Isocortex.ASC	Isocortex.ODC	Isocortex.DVC	Isocortex.VVC	UB	BG	MO	RB
+Isocortex.FL		1		1			1	1	
+Isocortex.ASC	1						1		
+Isocortex.ODC						1	1		
+Isocortex.DVC		 			1	1	1		
+Isocortex.VVC		1				1	1		
+UB		1					1		
+BG	1								
+MO									
+RB	1						1		
