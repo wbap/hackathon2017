@@ -1,8 +1,9 @@
-Isocortex.FL	Isocortex.FL	Frontal Lobe	Frontal Cortex
-Isocortex.ASC	Isocortex.ASC	Associative Cortex	Associative Cortex
-Isocortex.ODC	Isocortex.ODC	Odometry Cortex	Odometry Cortex
-Isocortex.DVC	Isocortex.DVC	Dorsal Visual Cortex	Visual Where Path
-Isocortex.VVC	Isocortex.VVC	Ventral Visual Cortex	Visual What Path
+Isocortex#FL	Isocortex#FL	Frontal Lobe	Frontal Cortex
+Isocortex#ASC	Isocortex#ASC	Associative Cortex	Associative Cortex
+Isocortex#ODC	Isocortex#ODC	Odometry Cortex	Odometry Cortex
+Isocortex#DVC	Isocortex#DVC	Dorsal Visual Cortices	Visual Where Path
+Isocortex#VVC	Isocortex#VVC	Ventral Visual Cortices	Visual What Path
+Isocortex#V1	Isocortex#V1	Primary Visual Cortex	Primary Visual Area
 UB	UB	The Umataro Box	Perihippocampal Area and Hippocampal Formation
 BG	BG	Basal Ganglia	Basal Ganglia
 MO	MO	Motor Output	Motor Output
